@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Declaração do tipo de documento como HTML5 -->
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Garante compatibilidade com o modo Edge no Internet Explorer -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura a largura do viewport para dispositivos móveis -->
+
+    <!-- Ícone do site (favicon) -->
     <link rel="shortcut icon" href="icon.png" type="image/x-icon">
     
-    <!-- modify -->
-    <title>Title</title>
-    <link rel="manifest" href="manifest.json">
-    <meta name="theme-color" content="#33ffcc"/>
-    <!-- /manifest -->
+    <!-- Configurações específicas para o PWA -->
+    <title>Title</title> <!-- Define o título da página -->
+    <link rel="manifest" href="manifest.json"> <!-- Referência ao arquivo `manifest.json` que define propriedades do PWA -->
+    <meta name="theme-color" content="#33ffcc"/> <!-- Define a cor da barra de status no navegador ou dispositivo -->
 </head>
 <body>
     
-    <h1>Meu Primeiro PWA!</h1>
+    <h1>Meu Primeiro PWA!</h1> <!-- Título principal exibido na página -->
 
-    <!-- load service worker -->
+    <!-- Carrega o arquivo de JavaScript que registra o Service Worker -->
     <script src="app.js"></script>
-    <!-- /load service worker -->
 </body>
 </html>
